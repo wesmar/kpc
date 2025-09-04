@@ -253,14 +253,23 @@ The project uses several advanced compilation flags:
 - **Timestamp masking** - Binary appears to be compiled on August 31, 2025
 - **Version spoofing** - Mimics Windows system file version `10.0.26100.5770`
 
-### ⚠️ Compilation Warning
-**Without the correct XOR decryption key, the compiled binary will:**
-- ✅ Execute successfully and display help information
-- ✅ Provide educational value for understanding Windows internals
-- ❌ **NOT perform any actual kernel operations** (driver extraction fails)
-- ❌ All protection bypass and dumping features will be non-functional
+### ⚠️ Compilation Notice
 
-**The entire tool's functionality depends on a single correct decryption string.**
+**Official KPC binary (CRC: 8A13D946)** contains the complete functional driver and operates with full capabilities.
+
+**The complete source code is publicly available**, but the XOR decryption key has been redacted for security purposes.
+
+**Custom compilations from public source will:**
+- ✅ Execute successfully with **full TrustedInstaller functionality**
+- ✅ Provide **context menu integration** and maximum system privileges  
+- ✅ Offer educational value for Windows internals understanding
+- ✅ **Extract drivers successfully** but with corrupted/garbage data
+- ❌ **Kernel operations will fail** due to non-functional driver content
+- ❌ All protection bypass and memory dumping features will be disabled
+
+**For full functionality, use the official binary (CRC: 8A13D946) or request the decryption key.**
+
+**The entire tool's kernel functionality depends on a single correct decryption string.**
 
 ### Professional Access
 The complete source code with functional decryption key can be provided to:
