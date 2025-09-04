@@ -280,11 +280,13 @@ The complete source code with functional decryption key can be provided to:
 
 ### Planned Features (v2.0)
 
-#### 🔑 **Enhanced Credential Access**
-- **Registry key enumeration** for security-related hives
-- **LSA secrets extraction** with automatic decryption
-- **Cached credential recovery** from memory structures
-- **Token manipulation** and privilege escalation automation
+#### 🔑 **Enhanced Credential Extraction**
+- **DPAPI masterkey enumeration** and decryption capabilities
+- **SAM/SECURITY registry extraction** with automatic hash parsing
+- **NTLM hash extraction** from memory and registry hives
+- **LSA secrets recovery** with full credential reconstruction
+- **Kerberos ticket enumeration** and TGT/TGS extraction
+- **Token manipulation** with advanced privilege escalation automation
 
 #### 🕵️ **Advanced Forensics Capabilities**
 - **Process memory scanning** for specific patterns and signatures
