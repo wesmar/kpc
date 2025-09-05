@@ -43,8 +43,8 @@ The framework operates without installation requirements, embedding an **encrypt
 <div align="center">
 
 **[Download KPC v1.0.1 - Official Release](https://github.com/wesmar/kpc/releases/latest/download/kpc.7z)**
-
 **Full Functionality • CRC32: 8A13D946 • All Features Enabled**
+**🔐 Archive Password: github.com**
 
 </div>
 
