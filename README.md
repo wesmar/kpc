@@ -11,7 +11,7 @@
 [![Version](https://img.shields.io/badge/Version-1.0.1-orange.svg)]()
 [![Language](https://img.shields.io/badge/Language-C%2B%2B20-red.svg)]()
 [![Architecture](https://img.shields.io/badge/Architecture-Kernel%20Level-purple.svg)]()
-[![Download](https://img.shields.io/badge/Download-Official%20Binary-success.svg)](https://github.com/wesmar/kpc/releases/latest/download/kpc.zip)
+[![Download](https://img.shields.io/badge/Download-Official%20Binary-success.svg)](https://github.com/wesmar/kpc/releases/latest/download/kpc.7z)
 
 **Ring-0 Memory Acquisition and Process Protection Manipulation Framework**  
 **Features Dynamic Kernel Driver Loading with Steganographic Concealment**
@@ -42,7 +42,7 @@ The framework operates without installation requirements, embedding an **encrypt
 
 <div align="center">
 
-**[Download KPC v1.0.1 - Official Release](https://github.com/wesmar/kpc/releases/latest/download/kpc.zip)**
+**[Download KPC v1.0.1 - Official Release](https://github.com/wesmar/kpc/releases/latest/download/kpc.7z)**
 
 **Full Functionality • CRC32: 8A13D946 • All Features Enabled**
 
@@ -50,7 +50,7 @@ The framework operates without installation requirements, embedding an **encrypt
 
 | Download Option | Functionality | Ring-0 Access | Target Audience |
 |---|---|---|---|
-| **[📦 Official Binary](https://github.com/wesmar/kpc/releases/latest/download/kpc.zip)** | ✅ **Complete** - All kernel operations | ✅ Full driver | Production use, Security research |
+| **[📦 Official Binary](https://github.com/wesmar/kpc/releases/latest/download/kpc.7z)** | ✅ **Complete** - All kernel operations | ✅ Full driver | Production use, Security research |
 | **[🔨 Source Compilation](#compilation-instructions)** | ⚡ **Partial** - TrustedInstaller only | ❌ Corrupted driver | Educational, Custom builds |
 
 ### Binary Verification
@@ -724,7 +724,7 @@ KPC operates under a **professional dual licensing structure**:
 📧 **Primary Contact:** [marek@wesolowski.eu.org](mailto:marek@wesolowski.eu.org)  
 📱 **WhatsApp/Signal:** [+48 607 440 283](https://wa.me/48607440283)  
 🌐 **Website:** [https://kvc.pl](https://kvc.pl)  
-📥 **Official Binary:** [Download kpc.zip](https://github.com/wesmar/kpc/releases/latest/download/kpc.zip)
+📥 **Official Binary:** [Download kpc.7z](https://github.com/wesmar/kpc/releases/latest/download/kpc.7z)
 
 **Business Registration Details:**  
 Company: WESMAR - Marek Wesołowski  
